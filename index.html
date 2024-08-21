@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container-el">
+        <div id="title">
+            <h1>Generate a <p id="rnd">random Password</p></h1>
+        </div>
+
+        
+        <p id="describe-el">never use an insecure password again.</p>
+
+        <div id="pass-length">
+        
+        <label for="length" >select the length of the password:</label>
+        <select id="length" >
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+        </select>
+         </div>
+
+        <button id="generate-el" onclick="generateRandomPassword()">Generate passwords</button>
+        <hr>
+         
+        <button id="passOne-el" onclick="copyToClipboard('passOne-el')"></button>
+        <button id= "passTwo-el" onclick="copyToClipboard('passTwo-el')"></button>
+        <p id="status"></p>
+        <script src="index.js"></script>
+    </div>
+    </body>
+</html>

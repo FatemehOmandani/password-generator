@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #1C1C1C;
+
+}
+
+.container-el {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    background-color:#1F2937 ;
+    width: 550px;
+    height: 550px;
+    margin-top: 65px;
+}
+h1{
+    font-weight: 700;
+}
+
+#rnd{
+    margin-top: 5px;
+    color:#10B981 ;
+}
+
+#title {
+    
+    width: 354px;
+    height: 80px;
+    margin-top: 115px;
+    margin-left: 52px;
+ 
+}
+
+#describe-el{
+    height: 28px;
+    width: 372px;
+    margin-left: 52px;
+    margin-top: 5px;
+   color: #D5D4D8;
+
+}
+
+#generate-el{
+    font-size: medium;
+    background-color: #10B981;
+    margin-left: 52;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 42px;
+    width: 191px;
+}
+
+#passOne-el{
+    width: 211px;
+    height: 39px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color:  #273549;
+    color: #10B981;
+    
+}
+
+#passTwo-el{
+    width: 211px;
+    height: 39px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color:  #273549;
+    color: #10B981;
+}
+
+
+
+hr{
+    font-weight: 400;
+    width: 450px;
+    background-color: #273549;
+    color: #273549;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: 30px;
+    margin-bottom: 50;
+    border: solid 1px;
+}
+
+#pass-length{
+    margin-left: 52px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+output{
+    color:white;
+    font-weight: 5px;
+    font-size: small;
+}
+label{
+    font-size: small;
+   
+}
+#length{
+    border-radius: 2px;
+    width: 50px;
+    color: white;
+    background-color: #273549;
+}
+
+#status{
+    margin-left: 52;
+    color: #4a5f7c;
+    font-size: small;
+}
